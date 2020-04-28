@@ -1,0 +1,15 @@
+.title {
+  margin: 0;
+
+  text-align: center;
+}
+
+.title--h1 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  span {
+    color: $special-color;
+  }
+}

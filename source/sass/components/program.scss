@@ -1,0 +1,15 @@
+.program__wrapper {
+  padding-top: 55px;
+}
+
+.program__item {
+  display: none;
+
+  &:first-child {
+    display: block;
+  }
+}
+
+.card__img {
+  width: 240px;
+}

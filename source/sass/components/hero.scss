@@ -1,6 +1,17 @@
-.hero {
-  width: 100vw;
-  height: 100vh;
-  padding-top: 158px;
-  background: #768f99 url("../img/hero-bg-mobile.jpg") no-repeat top center/cover;
+.hero__wrapper {
+  padding-top: 45px;
+  padding-right: 8px;
+  padding-bottom: 60px;
+  padding-left: 8px;
+}
+
+.hero__title {
+  margin-bottom: 45px;
+}
+
+.hero__decription {
+  margin-bottom: 65px;
+
+  text-align: center;
+  color: #f1f1f1;
 }
