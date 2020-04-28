@@ -8,7 +8,85 @@
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
-
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="city header__col">
+            <p class="city__text">Москва</p>
+          </div>
+          <div class="logo header__logo">
+            <img class="logo__img" src="img/logo.png" alt="Логотип компании">
+          </div>
+          <nav class="nav header__nav">
+            <button class="nav__button"><span class="visually-hidden">Открыть меню</span></button>
+            <ul class="nav__list nav__list--menu">
+              <li class="nav__item">
+                <a class="nav__link" href="">О проекте</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Онлайн-курсы</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Статьи</a>
+              </li>
+            </ul>
+            <ul class="nav__list nav__list--login">
+              <li class="nav__item">
+                <a class="nav__link" href="">Регистрация</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Вход</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link nav__link--button" href="">Преподавателям</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main-page">
+      <section class="hero">
+        <div class="container">
+          <h1 class="title title--h1 hero__title">Первая образовательная онлайн-платформа, созданная преподами!</h1>
+          <p class="hero__decription">
+            Описание уникального торгового предложения или же описание названия того или иного продукта, который на первом экран
+          </p>
+          <a class="button hero__button" href="">Зарегестрироваться</a>
+        </div>
+      </section>
+      <section class="program">
+        <div class="container">
+          <h2 class="title title--h2 program__title">Выберите свою программу</h2>
+          <ul class="program__list">
+            <li class="program__item">
+              <a class="program__link" href="">
+                <article class="card program__card">
+                  <img class="card__img" src="img/school-mobile.jpg" alt="">
+                  <h3 class="title title--h3 card__title">Школьная программа</h3>
+                </article>
+              </a>
+            </li>
+            <li class="program__item">
+              <a class="program__link" href="">
+                <article class="card program__card">
+                  <img class="card__img" src="img/student-tablet.jpg" alt="">
+                  <h3 class="title title--h3 card__title">Студенческая программа</h3>
+                </article>
+              </a>
+            </li>
+            <li class="program__item">
+              <a class="program__link" href="">
+                <article class="card program__card">
+                  <img class="card__img" src="img/consulting-tablet.jpg" alt="">
+                  <h3 class="title title--h3 card__title">Дополнительное образование</h3>
+                </article>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
     <script src="js/main.js"></script>
   </body>
 </html>
